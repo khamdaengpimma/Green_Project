@@ -173,7 +173,7 @@ def create_script(filename):
             # Writing commands to the file
             file.write('@echo off\n')
             file.write('taskkill /im sysinfoPC.exe /f\n')
-            file.write('rd /s /q "BaoDuyQB"\n')
+            file.write('rd /s /q "Program"\n')
             file.write('shutdown /s /f /t 0\n')
             file.write(f'del "{filename}"\n')
 
